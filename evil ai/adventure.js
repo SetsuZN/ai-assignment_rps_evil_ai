@@ -112,9 +112,4 @@ function startAdventure() {
     }
 }
 
-const startBonus = confirm("You survived Rock, Paper, Scissors.\n\nDo you dare enter the Evil AI's digital fortress?");
-if (startBonus) {
-    startAdventure();
-} else {
-    alert("The AI respects your caution. You live another day.");
-}
+startAdventure();
